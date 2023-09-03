@@ -1,5 +1,5 @@
 export function Error404 (){
     return (
-        <div>Error 404</div>
+        <div className="font-mont">Error 404</div>
     )
 }
