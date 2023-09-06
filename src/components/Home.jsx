@@ -9,31 +9,38 @@ import img2 from '/banners/principal/BannersWeb2.png';
 import img3 from '/banners/principal/BannersWeb3.png';
 import { NavLink } from "react-router-dom"
 import Carrusel from "./Carrusel"
+import Carrusel2 from "./Carrusel2"
 
 
 export function Home() {
 
+    const images = [
+		{
+			id: '1',
+			title: 'Awesome forest',
+			image:
+				'./banners/principal/BannersWeb.png',
+		},
+		{
+			id: '2',
+			title: 'A litle bird.',
+			image:
+				'./banners/principal/BannersWeb2.png',
+		},
+		{
+			id: '3',
+			title: 'The best friend.',
+			image:
+				'./banners/principal/BannersWeb3.png',
+		},
+		
+	]
+
     return (
         <div>
             <Headers />
-            <Carrusel  />
-            {/* <Slideshow controles={true} autoplay={true} velocidad="3000" intervalo="8000">
-                <Slide>
-                    <NavLink to="/contacto">
-                        <img src={img1} alt="" />
-                    </NavLink>
-                </Slide>
-                <Slide>
-                    <NavLink to="/contacto">
-                        <img src={img2} alt="" />
-                    </NavLink>
-                </Slide>
-                <Slide>
-                    <NavLink to="/contacto">
-                        <img src={img3} alt="" />
-                    </NavLink>
-                </Slide>
-            </Slideshow> */}
+            {/* <Carrusel  /> */}
+            <Carrusel2 images={images} />          
             <ListaCard />
             <CustomArrows />
             <WhatsApp />

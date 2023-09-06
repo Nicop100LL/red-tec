@@ -17,12 +17,7 @@ export default function Contact({ CamEst }) {
       text: '¡En breve nos pondremos en contacto!',
       confirmButtonText: 'OK'
     })
-      .then((result) => {
-        if (result.isConfirmed) {
-          // Llamar a la función cuando el usuario hace clic en OK
-          CamEst();
-        }
-      })
+      
   }
 
   const Funciones = () => {
@@ -32,7 +27,7 @@ export default function Contact({ CamEst }) {
   const sendEmail = (event) => {
     event.preventDefault();
 
-    emailjs.sendForm('service_xf0r9o3', 'template_l5ub0ou', event.target, 'VLgJPwOGAKZY0wX2F')
+    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, event.target, import.meta.env.VITE_PUBLIC_KEY)
       .then(response => {
         if (response.status === 200) {
           Funciones();

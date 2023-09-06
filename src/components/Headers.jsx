@@ -16,13 +16,11 @@ import { Menu } from '@headlessui/react'
 import Modal from './Modal'
 
 const services = [
-  { name: 'CONSULTORÍA', description: '', href: '/consultoria', icon: FiMapPin },
   { name: 'CENTRAL VIRTUAL', description: '', href: '/centralVirtual', icon: FaFacebookF },
   { name: 'INTERNET DEDICADO', description: '', href: '/internet', icon: FaInstagram },
   { name: 'INFRAESTRUCTURA', description: '', href: '/infraestructura', icon: FiTwitter },
   { name: 'DATACENTER', description: '', href: '/datacenter', icon: FaTiktok,  },
   { name: 'IMPLEMENTACIÓN Y MIGRACIONES', description: '', href: '/implementacion', icon: FiTwitter },
-  { name: 'SOPORTE', description: '', href: '/soporte', icon: FiTwitter },
   { name: 'SERVICIOS PROFESIONALES', description: '', href: '/servprof', icon: FiTwitter },
 
 ]

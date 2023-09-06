@@ -29,7 +29,7 @@ const posts = [
 
 export default function ListaCard() {
   return (
-    <div className="relative bg-gray-50 px-4 pt-8 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+    <div className="relative bg-gray-50 px-4 pt-1 pb-20 sm:px-6 lg:px-8 lg:pt-4 lg:pb-28">
       <div className=" bg-gray-100 relative mx-auto max-w-7xl">
 
         <div key={posts.id} className="mx-auto mt-12 grid max-w-lg gap-5 p-1 lg:max-w-none lg:grid-cols-3">

@@ -27,7 +27,7 @@ export default function ContactModal({ CamEst }) {
   const sendEmail = (event) => {
     event.preventDefault();
 
-    emailjs.sendForm('service_xf0r9o3', 'template_l5ub0ou', event.target, 'VLgJPwOGAKZY0wX2F')
+    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, event.target, import.meta.env.VITE_PUBLIC_KEY)
       .then(response => {
         if (response.status === 200) {
           Funciones();

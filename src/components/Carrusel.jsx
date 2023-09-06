@@ -20,7 +20,7 @@ const Carrusel = () => {
       >
         <NavLink to="/contacto">
         <div>
-          <img src="./banners/principal/BannersWeb.png" alt="Imagen 1"
+          <img src="../banners/principal/BannersWeb.png" alt="Imagen 1"
           className='h-[150px] object-cover lg:h-full cursor-pointer' />
         </div>
         </NavLink>
