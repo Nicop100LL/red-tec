@@ -16,12 +16,12 @@ export function ServiciosProfesionales() {
                         <div>
                             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                             </div>
-                            <div>                                
+                            <div>
                                 <p className="mt-6 text-lg font-mont leading-8 text-gray-600 sm:text-center lg:px-24">
-                                Brindamos servicio de asesoramiento y consultoría para todo tipo de empresas. Nuestro principal objetivo es mejorar el rendimiento de su negocio incorporando nuevas tecnologías que agilicen el crecimiento. 
-Las propuestas de REDTECSI incluyen mejora en la eficiencia de los sistemas de la empresa, baja de costos y aumento de la productividad individual y colectiva de tus colaboradores internos y externos. 
-Tenemos a tu disposición un equipo de profesionales altamente capacitados para alcanzar las expectativas y generar ese cambio que tanto necesitas realizando cualquier tipo de proyectos que impliquen planificación y análisis para la realización de migraciones e implementaciones. 
-REDTECSI contempla además un área dedicada al soporte 7x24 en remoto y on site.
+                                    Brindamos servicio de asesoramiento y consultoría para todo tipo de empresas. Nuestro principal objetivo es mejorar el rendimiento de su negocio incorporando nuevas tecnologías que agilicen el crecimiento.
+                                    Las propuestas de REDTECSI incluyen mejora en la eficiencia de los sistemas de la empresa, baja de costos y aumento de la productividad individual y colectiva de tus colaboradores internos y externos.
+                                    Tenemos a tu disposición un equipo de profesionales altamente capacitados para alcanzar las expectativas y generar ese cambio que tanto necesitas realizando cualquier tipo de proyectos que impliquen planificación y análisis para la realización de migraciones e implementaciones.
+                                    REDTECSI contempla además un área dedicada al soporte 7x24 en remoto y on site.
                                 </p>
                                 <div className="py-16 grid lg:px-8 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6">
                                     <motion.div

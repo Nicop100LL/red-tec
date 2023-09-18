@@ -8,7 +8,6 @@ import { CentralVirtual } from "./components/services/CentralVirtual"
 import { Internet } from "./components/services/Internet"
 import { Infraestructura } from "./components/services/Infraestructura"
 import { Implementacion } from "./components/services/Implementacion"
-import { Soporte } from "./components/services/Soporte"
 import { Datacenter } from "./components/services/Datacenter"
 import ScrollToTop from "./components/ScrollToTop"
 
@@ -39,7 +38,6 @@ function App() {
           <Route path="/datacenter" element={<Datacenter />} />
           <Route path="/servprof" element={<ServiciosProfesionales />} />
           <Route path="/implementacion" element={<Implementacion />} />
-          <Route path="/soporte" element={<Soporte />} />
           <Route path="/equinfra" element={<Equipamientoinfra />} />
           <Route path="/equipofic" element={<EquipamientoOfic />} />
           <Route path="/licenciamiento" element={<Licenciamiento />} />

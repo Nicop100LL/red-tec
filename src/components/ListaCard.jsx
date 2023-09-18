@@ -14,7 +14,7 @@ const posts = [
     name: 'SOPORTE',
     description: ' Contamos con un equipo de especialistas expertos en soporte con disponibilidad 7x24 para asistencia on site o remoto. Consulta por nuestras mesas de ayuda.',
     imagen: './Soporte.png',
-    href: "/soporte"
+    href: "/servprof"
   },
   {
     id: 3,
